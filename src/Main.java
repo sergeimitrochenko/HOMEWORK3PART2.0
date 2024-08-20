@@ -46,5 +46,22 @@ public class Main {
         } else {
             System.out.println("доставки нет");
         }
+        System.out.println("Задача 5");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 3, 4, 5:
+                System.out.println(monthNumber + " месяц принадлежит к весне");
+                break;
+            case 6, 7, 8:
+                System.out.println(monthNumber + " месяц принадлежит к лету");
+                break;
+            case 9, 10, 11:
+                System.out.println(monthNumber + " месяц принадлежит к осени");
+                break;
+            case 12, 1, 2:
+                System.out.println(monthNumber + " месяц принадлежит к зиме");
+                break;
+        }
     }
 }
+
